@@ -5,7 +5,7 @@ ziyuanzu.com 资源站实时监测面板。通过 [ziyuanzu API](https://www.ziy
 ## 工作原理
 
 ```
-GitHub Actions (每6小时) → monitor.py → fetch ziyuanzu API → 健康检查 → 生成静态文件 → GitHub Pages 自动部署
+GitHub Actions (每24小时) → monitor.py → fetch ziyuanzu API → 健康检查 → 生成静态文件 → GitHub Pages 自动部署
 ```
 
 **零服务器、零运行时、零成本。**
@@ -23,6 +23,7 @@ GitHub Actions (每6小时) → monitor.py → fetch ziyuanzu API → 健康检�
 | `data/stats.json` | `https://mylazily.github.io/ziyuanzhan/data/stats.json` | 统计数据 |
 | `data/fastest.json` | `https://mylazily.github.io/ziyuanzhan/data/fastest.json` | 响应最快 Top 20 |
 | `data/top-rated.json` | `https://mylazily.github.io/ziyuanzhan/data/top-rated.json` | 高评分 Top 20 |
+| `docs/config.json` | `https://raw.githubusercontent.com/wangjunnihao/ziyuanzhan/main/docs/config.json` | TVBox 配置（仅接口实测有效的 CMS 站，type=1），TVBox 里直接填此链接导入 |
 
 ## AI Agent 使用示例
 
@@ -57,11 +58,13 @@ python monitor.py
 ```
 ziyuanzhan/
 ├── monitor.py               # 监测脚本（核心）
+├── tvbox_build.py            # TVBox 配置生成：实测 online.json 里各站 ?ac=videolist，只收录有效站
 ├── requirements.txt         # Python 依赖
 ├── .github/workflows/
 │   └── monitor.yml          # GitHub Actions 定时监控 + 部署
 └── docs/                    # GitHub Pages 根目录
     ├── index.html           # 静态监控面板
+    ├── config.json           # TVBox 配置（由 tvbox_build.py 随每次监控自动生成，勿手动改）
     └── data/
         ├── latest.json      # 全部数据
         ├── online.json      # 在线资源站
