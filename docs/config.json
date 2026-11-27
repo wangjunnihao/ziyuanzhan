@@ -12,6 +12,16 @@
     },
     {
       "key": "cms_0002",
+      "name": "速播资源站",
+      "type": 1,
+      "api": "https://subocj.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0003",
       "name": "JKUN资源站",
       "type": 1,
       "api": "https://jkunzyapi.com/api.php/provide/vod/",
@@ -21,20 +31,10 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0003",
+      "key": "cms_0004",
       "name": "极速资源站",
       "type": 1,
       "api": "https://jszyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0004",
-      "name": "红牛资源站",
-      "type": 1,
-      "api": "http://hongniuzy2.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -52,9 +52,9 @@
     },
     {
       "key": "cms_0006",
-      "name": "无尽资源站",
+      "name": "玉兔资源站",
       "type": 1,
-      "api": "https://api.wujinapi.me/api.php/provide/vod/",
+      "api": "https://apiyutu.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -62,6 +62,16 @@
     },
     {
       "key": "cms_0007",
+      "name": "老色X资源站",
+      "type": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0008",
       "name": "小鸡资源站",
       "type": 1,
       "api": "https://api.xiaojizy.live/provide/vod/",
@@ -71,20 +81,10 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0008",
-      "name": "搜av资源站",
-      "type": 1,
-      "api": "https://api.souavzyw.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
       "key": "cms_0009",
-      "name": "老色X资源站",
+      "name": "虎牙资源站",
       "type": 1,
-      "api": "https://apilsbzy1.com/api.php/provide/vod/",
+      "api": "https://huyazy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -102,9 +102,9 @@
     },
     {
       "key": "cms_0011",
-      "name": "虎牙资源站",
+      "name": "无尽资源站",
       "type": 1,
-      "api": "https://huyazy.net/api.php/provide/vod/",
+      "api": "https://api.wujinapi.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -112,26 +112,6 @@
     },
     {
       "key": "cms_0012",
-      "name": "玉兔资源站",
-      "type": 1,
-      "api": "https://apiyutu.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0013",
-      "name": "越南资源站",
-      "type": 1,
-      "api": "https://api.vnzyz.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0014",
       "name": "黄色仓库资源",
       "type": 1,
       "api": "https://hsckzy888.com/api.php/provide/vod/",
@@ -141,47 +121,7 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0015",
-      "name": "滴滴资源站",
-      "type": 1,
-      "api": "https://api.ddapi.cc/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0016",
-      "name": "牛牛资源",
-      "type": 1,
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0017",
-      "name": "鸭鸭资源站",
-      "type": 1,
-      "api": "https://cj.yayazy.net/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0018",
-      "name": "天涯影视资源站",
-      "type": 1,
-      "api": "https://tyyszyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0019",
+      "key": "cms_0013",
       "name": "爱坤资源站",
       "type": 1,
       "api": "https://ikunzyapi.com/api.php/provide/vod/",
@@ -191,17 +131,47 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0020",
-      "name": "豆豆资源站",
+      "key": "cms_0014",
+      "name": "红牛资源站",
       "type": 1,
-      "api": "https://api.douapi.cc/api.php/provide/vod/",
+      "api": "http://hongniuzy2.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "group": "CMS采集"
     },
     {
-      "key": "cms_0021",
+      "key": "cms_0015",
+      "name": "越南资源站",
+      "type": 1,
+      "api": "https://api.vnzyz.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0016",
+      "name": "搜av资源站",
+      "type": 1,
+      "api": "https://api.souavzyw.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0017",
+      "name": "滴滴资源站",
+      "type": 1,
+      "api": "https://api.ddapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0018",
       "name": "最大资源站",
       "type": 1,
       "api": "http://zuidazy.me/api.php/provide/vod/",
@@ -211,7 +181,27 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0022",
+      "key": "cms_0019",
+      "name": "豆豆资源站",
+      "type": 1,
+      "api": "https://api.douapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0020",
+      "name": "牛牛资源",
+      "type": 1,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0021",
       "name": "森林资源站",
       "type": 1,
       "api": "https://slapibf.com/api.php/provide/vod/",
@@ -221,27 +211,7 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0023",
-      "name": "155资源站",
-      "type": 1,
-      "api": "https://155api.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0024",
-      "name": "非凡资源站",
-      "type": 1,
-      "api": "https://ffzy5.tv/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0025",
+      "key": "cms_0022",
       "name": "索尼采集站",
       "type": 1,
       "api": "https://suonizy.net/api.php/provide/vod/",
@@ -251,10 +221,40 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0026",
-      "name": "麻豆资源站",
+      "key": "cms_0023",
+      "name": "杏吧资源站",
       "type": 1,
-      "api": "https://91md.me/api.php/provide/vod/",
+      "api": "https://json.xingba222.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0024",
+      "name": "155资源站",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0025",
+      "name": "非凡资源站",
+      "type": 1,
+      "api": "https://ffzy5.tv/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0026",
+      "name": "鸭鸭资源站",
+      "type": 1,
+      "api": "https://cj.yayazy.net/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -262,9 +262,9 @@
     },
     {
       "key": "cms_0027",
-      "name": "新极品资源站",
+      "name": "乐播资源站",
       "type": 1,
-      "api": "https://jipinvip1.com/api.php/provide/vod/",
+      "api": "https://lbapi9.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -272,16 +272,6 @@
     },
     {
       "key": "cms_0028",
-      "name": "大X子资源站",
-      "type": 1,
-      "api": "https://apidanaizi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0029",
       "name": "魔都资源站",
       "type": 1,
       "api": "https://www.mdzyapi.com/api.php/provide/vod/",
@@ -291,10 +281,20 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0030",
-      "name": "乐播资源站",
+      "key": "cms_0029",
+      "name": "大X子资源站",
       "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "api": "https://apidanaizi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0030",
+      "name": "豪华资源站",
+      "type": 1,
+      "api": "https://haohuazy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -312,9 +312,9 @@
     },
     {
       "key": "cms_0032",
-      "name": "豪华资源站",
+      "name": "天涯影视资源站",
       "type": 1,
-      "api": "https://haohuazy.com/api.php/provide/vod/",
+      "api": "https://tyyszyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -322,6 +322,16 @@
     },
     {
       "key": "cms_0033",
+      "name": "新极品资源站",
+      "type": 1,
+      "api": "https://jipinvip1.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0034",
       "name": "暴风资源站",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
@@ -331,7 +341,17 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0034",
+      "key": "cms_0035",
+      "name": "麻豆资源站",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0036",
       "name": "百花资源站",
       "type": 1,
       "api": "https://bhziyuan.com/api.php/provide/vod/",
@@ -341,7 +361,7 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0035",
+      "key": "cms_0037",
       "name": "番号资源站",
       "type": 1,
       "api": "http://fhapi9.com/api.php/provide/vod/",
@@ -351,17 +371,17 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0036",
-      "name": "速播资源站",
+      "key": "cms_0038",
+      "name": "黑料资源站",
       "type": 1,
-      "api": "https://subocj.com/api.php/provide/vod/",
+      "api": "https://heiliaozyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "group": "CMS采集"
     },
     {
-      "key": "cms_0037",
+      "key": "cms_0039",
       "name": "辣椒资源站",
       "type": 1,
       "api": "https://apilj.com/api.php/provide/vod/",
@@ -371,57 +391,7 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0038",
-      "name": "鲨鱼资源站",
-      "type": 1,
-      "api": "https://shayuapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0039",
-      "name": "精品X资源站",
-      "type": 1,
-      "api": "https://www.jingpinx.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
       "key": "cms_0040",
-      "name": "360资源站",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0041",
-      "name": "爱奇艺资源站",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0042",
-      "name": "番茄资源站",
-      "type": 1,
-      "api": "https://fqzy.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0043",
       "name": "奶香香资源站",
       "type": 1,
       "api": "https://naixxzy.com/api.php/provide/vod/",
@@ -431,10 +401,40 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0044",
-      "name": "黑料资源站",
+      "key": "cms_0041",
+      "name": "鲨鱼资源站",
       "type": 1,
-      "api": "https://heiliaozyapi.com/api.php/provide/vod/",
+      "api": "https://shayuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0042",
+      "name": "奥斯卡资源站",
+      "type": 1,
+      "api": "https://aosikazy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0043",
+      "name": "精品X资源站",
+      "type": 1,
+      "api": "https://www.jingpinx.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0044",
+      "name": "番茄资源站",
+      "type": 1,
+      "api": "https://fqzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -452,6 +452,26 @@
     },
     {
       "key": "cms_0046",
+      "name": "360资源站",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0047",
+      "name": "爱奇艺资源站",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "group": "CMS采集"
+    },
+    {
+      "key": "cms_0048",
       "name": "茅台资源站",
       "type": 1,
       "api": "https://mtzy5.com/api.php/provide/vod/",
@@ -461,20 +481,10 @@
       "group": "CMS采集"
     },
     {
-      "key": "cms_0047",
+      "key": "cms_0049",
       "name": "猫眼资源",
       "type": 1,
       "api": "https://api.maoyanapi.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "group": "CMS采集"
-    },
-    {
-      "key": "cms_0048",
-      "name": "杏吧资源站",
-      "type": 1,
-      "api": "https://json.xingba222.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
